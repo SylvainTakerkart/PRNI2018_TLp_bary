@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Author: This file is anonymously provided for reviewers of PRNI2018 only, 
-# and that it will be made availble on github if the paper is accepted
+# Author: Qi Wang, Ievgen Redko, Sylvain Takerkart 
 
 
 import numpy as np
@@ -288,7 +287,7 @@ def tlp_bi(hs, hs_hat, x_size, y_size, reg, eta, weights=None, outItermax=10,
             incpt = incpt + 1
 
         g = g_hat / np.sum(g_hat) * mean_mass
-        print('{} iterations')
+        print('{} inner iterations'.format(incpt))
         barycenters.append(g)
         outerr = np.linalg.norm(g - outer_g)
         outer_g = g

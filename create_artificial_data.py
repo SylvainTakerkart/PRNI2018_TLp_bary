@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Author: This file is anonymously provided for reviewers of PRNI2018 only, 
-# and that it will be made availble on github if the paper is accepted
+# Author: Qi Wang, Ievgen Redko, Sylvain Takerkart
 
 
 import numpy as np
